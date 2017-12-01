@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var nilai=0;
+     var soalIng=
+     [
+     {soal:"siapa presiden pertama indonesia ?",jawaban:"ir.soekarno",jawaban:"soekarno"},
+     {soal:"siapa presiden keempat indonesia?",jawaban:"gusdur",jawaban:"abdurrahman wahid"},
+     {soal:"siapa presiden kedua indonesia?",jawaban:"soeharto"},
+     {soal:"siapa presiden ketiga indonesia?",jawaban:"b.j.habibie",jawaban:"bacharuddin jusuf habibie"},
+     {soal:"siapa presiden wanita di indonesia?",jawaban:"megawati soekarno putri",jawaban:"megawati"},
+     {soal:"siapa presiden keenam indonesia?",jawaban:"sby",jawaban:"susilo bambang yudoyono"},
+     {soal:"siapa presiden indonesia sekarang ?",jawaban:"jokowi",jawaban:"joko widodo"},
+     ]
+     soalkuLogi.forEach(function(data){
+                var jawaban = prompt(data.soal);
+                 if(jawaban == data.jawaban){
+                     nilai = nilai+1;
+                 }
+                });
+       alert(nilai);
+    
+    
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+        var nilai=0;
+                var soalkuLogi=
+                [
+            
+                {soal:"ayam berkembang biak dengan?", jawaban:"bertelur",jawaban:"ovipar"},
+                {soal:"ikan bernafas dengan",jawaban:"insang"},
+                {soal:"apakah ayam termasuk hewan herbivora?",jawaban:"tidak"},
+                {soal:"kambing memiliki ... kaki?",jawaban:"4"},
+                {soal:"manusia berjalan menggunakan?",jawaban:"kaki"},
+                {soal:"apakah kelelawar termasuk hewan nokturnal?",jawaban:"ya",jawaban:"iya"},
+                {soal:"hewan bertelur disebut?",jawaban:"ovipar"},
+                {soal:"hewan melahirkan disebut?",jawaban:"vivipar"},
+                {soal:"apakah cicak dapat merayap di tembok?",jawaban:"ya",jawaban:"iya"},
+                {soal:"unta dapat bertahan hidup tanpa minum selama delapan hari karena mempunyai? ",jawaban:"punuk"},
+            
+                ]
+                soalkuLogi.forEach(function(data){
+                var jawaban = prompt(data.soal);
+                 if(jawaban == data.jawaban){
+                     nilai = nilai+1;
+                 }
+                });
+       alert(nilai);
+        </script>
+                
+                 
+        
+            
+</body>
+</html>
